@@ -1,49 +1,101 @@
 body{
-background-color: thistle;
-
+margin: 0;
+padding: 0;
+background-color: #342F84;
 
 }
 
 header{
-    padding: 5%;
-    color: white;
-}
-
-
-
-section{
-background-color:black;
+background-color:#141414;
+width: 100%;
+height: 34%;
 display: flex;
-flex-direction: column;
-height: 100%;
-margin-left: 15%;
-margin-right: 15%;
-margin-bottom: 5%;
-margin-top: 5%;
-box-shadow: 10px 5px 10px #888;
+flex-direction: row;
 justify-content: space-around;
-padding-bottom: 5%;
+flex-wrap: nowrap;
+align-items: center;
+text-size-adjust: none;
+-webkit-text-size-adjust: none;
 }
 
-.box{
+
+
+
+
+#Links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-family:Reem Kufi;
+    font-style: Regular;
+}
+
+#Links h1{
+    font-size: 3em;
+}
+
+
+
+#Links h2{
+    font-size: 2em;
+}
+#NavLink{
+    flex-grow: 2;
     display: flex;
     flex-direction: row;
-
-    max-height: 200px;
-    max-width: 90%;
-    align-self: stretch;
-    flex-grow: 1;
-    flex-shrink: 1;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: rgb(36, 36, 36);
-    color: whitesmoke;
-    margin-bottom: 5%;
-    padding:4%;
+    justify-content: space-around;
 }
 
-.box img{
+#NavLink a{
+    color: white;
+    text-decoration: none;
+}
+
+#Navlink a:hover{
+
+}
+
+#image{
+    align-content: center;
+    width: 20%;
+    text-align: center;
+}
+
+#image img{
+    flex-grow: 1;
+    width: 50%;
+    align-content: center;
     max-width: 100%;
-    max-height: 100%;
-    
+    height:auto;
+    border: 4px solid #6c63ff ;
+    border-radius: 9px;
+}
+
+section{
+    height: 70%;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    flex-wrap: wrap;
+
+    }
+
+.Item{
+    background-color: rgba(196, 196, 196, 0.5);
+    height: 70%;
+    width: 40%;
+    vertical-align: middle;
+    margin: 2.5%;
+}
+
+
+footer{
+    height: 10%;
 }
