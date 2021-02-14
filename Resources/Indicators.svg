@@ -1,0 +1,76 @@
+<svg width="534" height="332" viewBox="0 0 534 332" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Indicators">
+<path id="Vector" d="M534 0H0V332H534V0Z" fill="#3F3D56"/>
+<g id="LineMarks">
+<path id="Vector 2" opacity="0.3" d="M513.975 120.972H21.1375V125.004H513.975V120.972Z" fill="#6C63FF"/>
+<path id="Vector 3" opacity="0.3" d="M513.975 186.834H21.1375V190.866H513.975V186.834Z" fill="#6C63FF"/>
+<path id="Vector 4" opacity="0.3" d="M513.975 56.4535H21.1375V59.1417H513.975V56.4535Z" fill="#6C63FF"/>
+<path id="Vector 5" opacity="0.3" d="M513.975 252.696H21.1375V255.385H513.975V252.696Z" fill="#6C63FF"/>
+<path id="Vector 6" opacity="0.3" d="M513.975 310.494H21.1375V313.182H513.975V310.494Z" fill="#6C63FF"/>
+<path id="Vector 7" d="M491.169 65.8624C501.307 65.8624 509.525 55.9329 509.525 43.6842C509.525 31.4356 501.307 21.5061 491.169 21.5061C481.031 21.5061 472.812 31.4356 472.812 43.6842C472.812 55.9329 481.031 65.8624 491.169 65.8624Z" fill="#6C63FF"/>
+</g>
+<g id="LineGraph">
+<path id="Vector 8" d="M34.943 313.182L33.375 309.38L106.772 147.686L171.472 255.254L223.793 121.179L246.736 166.253L309.144 79.7029L378.465 187.395L487.265 44.3563L488.387 48.9204L378.366 193.568L309.076 85.9241L246.506 172.694L224.002 128.482L171.797 262.263L106.974 154.496L34.943 313.182Z" fill="#6C63FF"/>
+</g>
+<g id="Candle">
+<g id="Red">
+<g id="Tails">
+<path id="Line 1" d="M141.287 150.542V245.976" stroke="black" stroke-width="2"/>
+<path id="Line 2" d="M131.275 149.198H152.413" stroke="black" stroke-width="2"/>
+<path id="Line 3" d="M131.275 244.632H152.413" stroke="black" stroke-width="2"/>
+</g>
+<g id="Tails 2">
+<path id="Line 1 2" d="M356 127.692V176.081" stroke="black" stroke-width="2"/>
+<path id="Line 2 2" d="M345.988 126.348H367.125" stroke="black" stroke-width="2"/>
+<path id="Line 3 2" d="M345.988 174.737H367.125" stroke="black" stroke-width="2"/>
+</g>
+<g id="Tails 3">
+<path id="Line 1 3" d="M327.075 86.0243V158.607" stroke="black" stroke-width="2"/>
+<path id="Line 2 3" d="M317.062 84.6802H338.2" stroke="black" stroke-width="2"/>
+<path id="Line 3 3" d="M317.062 157.263H338.2" stroke="black" stroke-width="2"/>
+</g>
+<path id="Rectangle 3" d="M154.638 166.672H127.938V232.534H154.638V166.672Z" fill="#BB4646"/>
+<path id="Rectangle 6" d="M339.312 86.0243H315.95V127.692H339.312V86.0243Z" fill="#BB4646"/>
+<path id="Rectangle 7" d="M364.9 138.445H348.213V168.016H364.9V138.445Z" fill="#BB4646"/>
+</g>
+<g id="Green">
+<g id="Tails 4">
+<path id="Line 1 4" d="M216.938 102.154V216.405" stroke="black" stroke-width="2"/>
+<path id="Line 2 4" d="M206.925 100.81H228.063" stroke="black" stroke-width="2"/>
+<path id="Line 3 4" d="M206.925 215.061H228.063" stroke="black" stroke-width="2"/>
+</g>
+<g id="Tails 5">
+<path id="Line 1 5" d="M60.075 146.51V297.053" stroke="black" stroke-width="2"/>
+<path id="Line 2 5" d="M50.0625 145.166H71.2" stroke="black" stroke-width="2"/>
+<path id="Line 3 5" d="M50.0625 295.708H71.2" stroke="black" stroke-width="2"/>
+</g>
+<g id="Tails 6">
+<path id="Line 1 6" d="M99.0125 127.692V206.996" stroke="black" stroke-width="2"/>
+<path id="Line 2 6" d="M89 126.348H110.137" stroke="black" stroke-width="2"/>
+<path id="Line 3 6" d="M89 205.652H110.137" stroke="black" stroke-width="2"/>
+</g>
+<g id="Tails 7">
+<path id="Line 1 7" d="M412.738 107.53V186.834" stroke="black" stroke-width="2"/>
+<path id="Line 2 7" d="M402.725 106.186H423.863" stroke="black" stroke-width="2"/>
+<path id="Line 3 7" d="M402.725 185.49H423.863" stroke="black" stroke-width="2"/>
+</g>
+<g id="Tails 8">
+<path id="Line 1 8" d="M449.45 48.3887V135.757" stroke="black" stroke-width="2"/>
+<path id="Line 2 8" d="M439.438 47.0446H460.575" stroke="black" stroke-width="2"/>
+<path id="Line 3 8" d="M439.438 134.413H460.575" stroke="black" stroke-width="2"/>
+</g>
+<g id="Tails 9">
+<path id="Line 1 9" d="M185.787 206.996V286.3" stroke="black" stroke-width="2"/>
+<path id="Line 2 9" d="M175.775 205.652H196.913" stroke="black" stroke-width="2"/>
+<path id="Line 3 9" d="M175.775 284.955H196.913" stroke="black" stroke-width="2"/>
+</g>
+<path id="Rectangle 1" d="M73.425 176.081H47.8375V287.644H73.425V176.081Z" fill="#80DA60"/>
+<path id="Rectangle 2" d="M112.363 139.79H85.6626V188.178H112.363V139.79Z" fill="#80DA60"/>
+<path id="Rectangle 4" d="M196.912 235.223H174.662V276.891H196.912V235.223Z" fill="#80DA60"/>
+<path id="Rectangle 5" d="M230.288 125.004H204.7V204.308H230.288V125.004Z" fill="#80DA60"/>
+<path id="Rectangle 9" d="M426.087 133.069H400.5V174.737H426.087V133.069Z" fill="#80DA60"/>
+<path id="Rectangle 10" d="M462.8 67.2065H437.213V125.004H462.8V67.2065Z" fill="#80DA60"/>
+</g>
+</g>
+</g>
+</svg>
