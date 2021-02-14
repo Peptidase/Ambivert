@@ -1,0 +1,49 @@
+body{
+background-color: thistle;
+
+
+}
+
+header{
+    padding: 5%;
+    color: white;
+}
+
+
+
+section{
+background-color:black;
+display: flex;
+flex-direction: column;
+height: 100%;
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 5%;
+margin-top: 5%;
+box-shadow: 10px 5px 10px #888;
+justify-content: space-around;
+padding-bottom: 5%;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+
+    max-height: 200px;
+    max-width: 90%;
+    align-self: stretch;
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(36, 36, 36);
+    color: whitesmoke;
+    margin-bottom: 5%;
+    padding:4%;
+}
+
+.box img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
