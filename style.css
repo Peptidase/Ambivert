@@ -64,6 +64,17 @@ text-size-adjust: none;
     text-align: center;
 }
 
+
+@keyframes imageSkew{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(10deg);
+
+    }
+}
+
 #image img{
     flex-grow: 1;
     width: 50%;
@@ -72,7 +83,16 @@ text-size-adjust: none;
     height:auto;
     border: 4px solid #6c63ff ;
     border-radius: 9px;
+    transition:  transform .5s ease-in-out;
 }
+#image img:hover{
+    transform:rotate(8deg);
+
+}
+
+
+
+
 
 section{
     height: 70%;
@@ -84,18 +104,114 @@ section{
     vertical-align: middle;
     align-items: center;
     flex-wrap: wrap;
+    font-family:Reem Kufi;
+    font-style: Regular;
+    font-size: 2em;
 
     }
 
 .Item{
     background-color: rgba(196, 196, 196, 0.5);
     height: 70%;
-    width: 40%;
+    width: 30%;
     vertical-align: middle;
     margin: 2.5%;
+    border-radius: 10px;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
+.Item svg{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.Item #Candle{
+    opacity: 0;
+    transform-origin: bottom right;
+    animation-name: growDown;
+    animation-duration: 2s;
+}
+
+
+.Item:hover #Candle{
+    animation-name: growUp;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes growUp{
+    from{
+        /*transform:scaleY(0.0);*/
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+        /*transform:scaleY(1.0);*/
+    }
+}
+
+@keyframes growDown{
+  from{
+      /*transform:scaleY(1.0);*/
+      opacity: 100;
+  }
+    to{
+        opacity: 0;
+      /*transform:scaleY(0.0);*/
+  }
+}
+
+
+#VectorGrowth{
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear alternate infinite;
+}
+
+#Points path{
+    animation: bop 1s ease-out alternate;
+    animation-delay:7s ;
+}
+
+#Points path:nth-child(1){animation-delay: .5s;}
+#Points path:nth-child(2){animation-delay: 1s;}
+#Points path:nth-child(3){animation-delay: 2.5s;}
+#Points path:nth-child(4){animation-delay: 3s;}
+#Points path:nth-child(5){animation-delay: 4.5s;}
+#Points path:nth-child(6){animation-delay: 5s;}
+#Points path:nth-child(7){animation-delay: 6.5s;}
+#Points path:nth-child(8){animation-delay: 7s;}
+
+
+@keyframes dash{
+    to{
+        stroke-dashoffset: 0;
+    }
+}
+
+
+@keyframes bop{
+    0%{
+        transform:translateY(0px);
+    }
+    90%{
+        transform:translateY(5px);
+    }
+    100%{
+        transform:translateY(0px)
+    }
+}
 
 footer{
     height: 10%;
+    text-align: center;
+    padding-bottom: 5%;
+
 }
+
