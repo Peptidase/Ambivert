@@ -18,8 +18,10 @@ text-size-adjust: none;
 -webkit-text-size-adjust: none;
 }
 
-
-
+#headerLink{
+    text-align: left;
+    padding-left: 8%;
+}
 
 
 #Links{
@@ -35,8 +37,22 @@ text-size-adjust: none;
 
 #Links h1{
     font-size: 3em;
+    text-decoration: none;
+    justify-content: left;
+
+
 }
 
+a{
+    color: white;
+    text-decoration: none;
+    transition: 2s;
+}
+
+a:hover{
+
+  text-decoration: underline;  
+}
 
 
 #Links h2{
