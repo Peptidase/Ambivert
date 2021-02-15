@@ -190,7 +190,7 @@ section{
     animation: dash 5s linear alternate infinite;
 }
 
-#Points path{
+/*#Points path{
     animation: bop 1s ease-out alternate;
     animation-delay:7s ;
 }
@@ -204,6 +204,11 @@ section{
 #Points path:nth-child(7){animation-delay: 6.5s;}
 #Points path:nth-child(8){animation-delay: 7s;}
 
+*/
+
+.circle:hover{
+    animation:bop 1s forwards ;
+}
 
 @keyframes dash{
     to{
@@ -216,7 +221,7 @@ section{
     0%{
         transform:translateY(0px);
     }
-    90%{
+    50%{
         transform:translateY(5px);
     }
     100%{
