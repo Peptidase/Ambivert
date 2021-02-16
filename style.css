@@ -65,14 +65,6 @@ a:hover{
     justify-content: space-around;
 }
 
-#NavLink a{
-    color: white;
-    text-decoration: none;
-}
-
-#Navlink a:hover{
-
-}
 
 #image{
     align-content: center;
@@ -184,33 +176,159 @@ section{
 }
 
 
-#VectorGrowth{
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    animation: dash 5s linear alternate infinite;
+#RegressionLine{
+    stroke-dasharray: 0;
+    transform:scale(0);
+    transform-origin: bottom left;
 }
 
-/*#Points path{
-    animation: bop 1s ease-out alternate;
-    animation-delay:7s ;
+#GraphLines #XLine{
+    transform: scaleX(0);
 }
 
-#Points path:nth-child(1){animation-delay: .5s;}
-#Points path:nth-child(2){animation-delay: 1s;}
-#Points path:nth-child(3){animation-delay: 2.5s;}
-#Points path:nth-child(4){animation-delay: 3s;}
-#Points path:nth-child(5){animation-delay: 4.5s;}
-#Points path:nth-child(6){animation-delay: 5s;}
-#Points path:nth-child(7){animation-delay: 6.5s;}
-#Points path:nth-child(8){animation-delay: 7s;}
+#GraphLines #YLine{
+    transform: scaleY(0);
 
-*/
+}
+
+#MountainLine{
+    transform: scaleY(0);
+}
+
+#GoPoints{
+    opacity: 1;
+}
+
+.Item:hover #GoPoints{
+    animation-name: Disappear;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+.Item:hover #XLine{
+    animation-name: GrowX;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.Item:hover #YLine{
+    animation-name: GrowY;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.Item:hover #RegressionLine{
+    animation-name: Dissappear;
+    animation-delay: 5s;
+    animation-duration: 3s;
+    animation-direction:reverse;
+}
+
+.Item:hover #MountainLine{
+    transform-origin: bottom;
+
+    animation-name: GrowY;
+    animation-delay: 4s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes GrowX{
+    from{
+        transform: scaleX(0);
+    }to{
+        transform:scaleX(1);
+    }
+}
+
+
+@keyframes GrowY{
+    from{
+        opacity: 0;
+        transform: scaleY(0);
+    }to{
+        opacity: 1;
+        transform:scaleY(1);
+    }
+}
+
+@keyframes Grow{
+    from{
+        transform: scale(0);
+    } to{
+        transform: scale(1);
+    }
+}
+
+@keyframes Disappear{
+    from {
+        opacity: 1;
+    }to{
+        opacity: 0;
+    }
+}
+
+
+
+.Item #LineMarks{
+    transform:scaleX(0);
+    transform-origin: left;
+    animation-name:flashBack;
+    animation-duration: 2s;
+}
+
+
+.Item:hover #LineMarks{
+    animation-name: flashTo;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+
 
 .circle:hover{
     animation:bop 1s forwards ;
 }
 
-@keyframes dash{
+@keyframes flashTo{
+    from{
+        transform:scaleX(0);
+    }
+    
+    to{
+        transform:scaleX(1);
+    }
+}
+
+@keyframes flashBack{
+    from{
+        transform:scaleX(1);
+    }
+    
+    to{
+        transform:scaleX(0);
+    }
+}
+
+
+@keyframes dashUp{
+    from{
+        stroke-dashoffset:0;
+    }
+    
+    
+    to{
+        stroke-dashoffset:1000;
+    }
+}
+
+@keyframes dashDown{
+    from{
+        stroke-dashoffset: 1000;
+    }
     to{
         stroke-dashoffset: 0;
     }
