@@ -51,6 +51,14 @@ padding-top: 2em;
     font-style: Regular;
 }
 
+h1{
+    color: white;
+    font-family:Reem Kufi;
+    font-style: Regular;
+    font-size: 3em;
+
+}
+
 #Links h1{
     font-size: 3em;
     text-decoration: none;
