@@ -38,6 +38,8 @@ padding-top: 2em;
 }
 
 
+
+
 #Links{
     display: flex;
     flex-direction: column;
@@ -57,7 +59,7 @@ padding-top: 2em;
 
 }
 
-a{
+#Links{
     color: white;
     text-decoration: none;
 }
@@ -384,6 +386,7 @@ footer{
     height: 10%;
     text-align: center;
     padding-bottom: 5%;
+    margin-top: 5em;
 
 }
 
