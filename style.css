@@ -106,7 +106,7 @@ padding-top: 2em;
 
 
 section{
-    height: 70%;
+    height: auto;
     width: 100%;
     display: inline-flex;
     flex-direction: row;
@@ -156,7 +156,6 @@ section{
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 10%;
 
 }
 
@@ -393,7 +392,7 @@ footer{
 }
 
 .space{
-    height: 10%;
+    height: 4em;
 }
 
 
