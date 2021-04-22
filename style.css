@@ -131,6 +131,47 @@ section{
 
     }
 
+
+
+    #Display{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    text-align: left;
+    color:white;
+    }
+
+    #TradingRegions{
+        width:800px; 
+        height:500px;
+    }
+
+    #Description{
+        padding-left: 3em;
+        padding-right: 3em;
+        margin-bottom: 3em;
+    }
+
+
+    #LineGraph{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-bottom: 3em;
+    }
+    #LineGraph canvas{
+        background-color: white;
+        max-width:600px;
+        max-height: auto;
+        margin-left: 3em; 
+               
+    }
+
+
+        
     .Itemi{
         height: auto;
         vertical-align: middle;

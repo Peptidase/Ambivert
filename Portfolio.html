@@ -7,12 +7,35 @@
 <link rel ="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet"> 
-<script href="node_modules/particlesjs/src/particles.js"></script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script type="text/javascript" src="script.js"></script>
 </head>
+
 <body>
 <header><h1>Arif's Portfolio Optimization</h1></header>
 <section>
-    <!--<img id="ShowerCase" width="30%" height="50%" src="Resources/1.jpg> -->
+    <div id="Display">
+<div id="Description"><h2>Portfolio Optimization</h2>
+<p>This Is using data obtained via pandas datareader object from 'yahoo' source, it dates from starting time 2013/01/01 to current day. Using Data collected from the tickers adjusted closing rates, I calculated the best weights and selection of equities would best suit the portfolio and allow it to have maximized return for as little volitility (risk) as possible).</p>
+</div>
+
+<div id="LineGraph">
+    <div>
+<h3>Portfolio Value</h3>
+<p>Risk: Medium</p>
+<p>DailyGrowth: 0.45%</p>
+<p>Distinct Equities: 15</p>
+</div>
+<canvas id="myChart" width="400" height="400"></canvas>
+</div>
+
+
+<div id="TradingRegions"></div>
+
+
+
+</div>
 </section>
 <footer>
 </footer>
